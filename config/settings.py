@@ -21,3 +21,10 @@ RETRAIN_SCHEDULE = {
     'daily': '03:00',
     'weekly': 'sunday 04:00'
 }
+
+DATA_CLEANING_CONFIG = {
+    'VOLUME_ZSCORE_THRESHOLD': 4.0,       # Z-score threshold for volume anomalies
+    'WINSORIZE_LIMITS': [0.01, 0.01],     # Trim top and bottom 1% of values
+    'MIN_VALID_COMPLETENESS': 0.95,       # Minimum required data completeness
+    'TIME_TOLERANCE_PCT': 0.2,            # 20% tolerance for time intervals
+}
