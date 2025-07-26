@@ -1,0 +1,6 @@
+# .env file
+ENCRYPTION_KEY="your-encryption-key-here"
+ENC_BINANCE_API_KEY="encrypted-binance-key"
+ENC_BINANCE_SECRET="encrypted-binance-secret"
+ENC_PO_API_KEY="encrypted-pocket-option-key"
+ENC_PO_API_SECRET="encrypted-pocket-option-secret"
