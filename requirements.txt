@@ -1,0 +1,10 @@
+python-binance==1.0.21
+ta-lib==0.4.24
+tensorflow==2.15.0
+scikit-learn==1.4.0
+pandas==2.2.1
+numpy==1.26.4
+matplotlib==3.8.3
+python-dotenv==1.0.0
+schedule==1.2.1
+cryptography==42.0.5
